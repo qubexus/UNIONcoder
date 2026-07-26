@@ -1,0 +1,28 @@
+# Dependencies
+node_modules/
+extracted/
+
+# Build
+dist/
+build/
+
+# Android
+*.apk
+!unioncoder-web/android/app/build/outputs/apk/debug/app-debug.apk
+unioncoder-web/android/.gradle/
+unioncoder-web/android/build/
+unioncoder-web/android/app/build/
+unioncoder-web/android/local.properties
+
+# IDE
+.idea/
+*.iml
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment
+.env
+.env.local
